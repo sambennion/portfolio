@@ -3,14 +3,14 @@ ul.nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(133, 165, 235);
   }
   
-  li {
+  li.navItem {
     float: left;
   }
   
-  li a {
+  li.navItem a {
     display: block;
     color: white;
     text-align: center;
@@ -19,6 +19,6 @@ ul.nav {
   }
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
+  li.navItem a:hover {
+    background-color: rgb(221, 236, 200);
   }
