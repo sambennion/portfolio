@@ -1,3 +1,9 @@
+body{
+    text-align: center;
+    font-family: Verdana;
+    padding: 15em;
+    margin: 2em;
+}
 ul.nav {
     list-style-type: none;
     margin: 0;
