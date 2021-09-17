@@ -39,4 +39,35 @@ ul.nav {
       border-radius: 2%;
       margin: 1em;
       padding: 1em;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
   }
+  .bio{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(31, 0, 0);
+    padding: 2em;
+  }
+  #about{
+    width: 100%;
+  }
+  .header, .section{
+    padding: 2em;
+  }
+
+  /* Mobile Styles */
+  
+@media only screen and (max-width: 400px) {
+  
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+}
